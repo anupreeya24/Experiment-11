@@ -33,3 +33,82 @@ The study and implementation of classes and objects are foundational to object-o
 
 4. **Applying Polymorphism**: Implementing polymorphism to handle different types of objects through a common interface, enhancing flexibility and scalability.
 
+
+
+### Algorithm to Define and Use a Student Class
+
+1. **Define the Student Class**:
+   - Create a class named `student` with the following public attributes:
+     - `string name`: to store the student's name.
+     - `float age`: to store the student's age.
+     - `string branch`: to store the student's branch of study.
+     - `float result`: to store the student's result (GPA or equivalent).
+     - `int year`: to store the year of study.
+
+2. **Main Function**:
+   - **Create the First Student Instance**:
+     - Declare an instance of the `student` class named `s1`.
+     - Assign values to the attributes of `s1`:
+       - `s1.name = "Anupreeya"`
+       - `s1.age = 19`
+       - `s1.branch = "ENTC"`
+       - `s1.result = 8.13`
+       - `s1.year = 2023`
+     - Print the attributes of `s1`.
+
+   - **Create the Second Student Instance**:
+     - Declare another instance of the `student` class named `s2`.
+     - Assign values to the attributes of `s2`:
+       - `s2.name = "Aditya"`
+       - `s2.age = 19`
+       - `s2.branch = "ENTC"`
+       - `s2.result = 7.8`
+       - `s2.year = 2023`
+     - Print the attributes of `s2`.
+
+### Algorithm to Define a Student Class with a Method
+
+1. **Define the Student Class**:
+   - Create a class named `student`.
+   - Inside the class, define a public method named `mystudentyear()`:
+     - This method, when called, prints the message: `"hello!, I am in 2nd year"`.
+
+2. **Main Function**:
+   - Create an instance of the `student` class named `myobj`.
+   - Call the `mystudentyear()` method on `myobj`.
+
+
+### Algorithm to Define a Student Class with an External Method
+
+1. **Define the Student Class**:
+   - Create a class named `student`.
+   - Inside the class, declare a public method named `mystudentyear()`.
+
+2. **Implement the Method**:
+   - Outside the class, define the `mystudentyear()` method:
+     - This method prints the message: `"hello, I m in 2nd year."`.
+
+3. **Main Function**:
+   - Create an instance of the `student` class named `myobj`.
+   - Call the `mystudentyear()` method on `myobj`.
+
+
+### Algorithm to Calculate the Volume of a Cuboid
+
+1. **Define the Cube Class**:
+   - Create a class named `cube`.
+   - Declare public methods and member variables:
+     - **Member Variables**:
+       - `int a, b, c`: to store the dimensions of the cube (length, breadth, height).
+       - `int cal`: to store the calculated volume.
+     - **Methods**:
+       - `void input()`: to prompt the user for the dimensions of the cube and store them in `a`, `b`, and `c`.
+       - `void calculation()`: to calculate the volume of the cube using the formula `cal = a * b * c`.
+       - `void output()`: to display the calculated volume.
+
+2. **Main Function**:
+   - Create an instance of the `cube` class named `myCube`.
+   - Call the `input()` method to get the dimensions from the user.
+   - Call the `calculation()` method to compute the volume.
+   - Call the `output()` method to display the volume.
+
